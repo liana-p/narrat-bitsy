@@ -4,6 +4,7 @@
   "description": "Narrat plugin to interface with a bitsy game",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/"
   ],

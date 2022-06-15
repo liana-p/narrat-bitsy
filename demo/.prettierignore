@@ -3,4 +3,3 @@ build
 coverage
 out
 public/index.html
-*.html

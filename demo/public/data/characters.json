@@ -1,0 +1,26 @@
+{
+  "config": {
+    "imagesPath": "./img/characters/"
+  },
+  "characters": {
+    "game": {
+      "name": "",
+      "color": "white"
+    },
+    "player": {
+      "style": {
+        "color": "orange"
+      },
+      "name": "You"
+    },
+    "helper": {
+      "sprites": {
+        "idle": "helper_cat.png"
+      },
+      "style": {
+        "color": "green"
+      },
+      "name": "Helper Cat"
+    }
+  }
+}
