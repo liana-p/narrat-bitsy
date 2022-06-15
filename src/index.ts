@@ -7,14 +7,6 @@ import {
   NarratPlugin,
 } from 'narrat';
 
-declare global {
-  interface Window {
-    defaultFontName: string;
-    attachCanvas: (canvas: HTMLCanvasElement) => void;
-    loadGame: (gameData: any, defaultFontData: any) => void;
-  }
-}
-
 export function attachBitsyGameToNarrat() {
   console.log('BITSY PLUGIN', 'Attaching bitsy');
   const appContainer = document.querySelector('.background');
@@ -75,6 +67,7 @@ export class BitsyPlugin extends NarratPlugin {
       this.hideBitsy();
     }
   }
+
   constructor(options: BitsyPluginOptions = {}) {
     super();
     this.options = options;
