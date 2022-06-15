@@ -1,11 +1,11 @@
-import { getConfig } from 'narrat';
-import { aspectRatioFit } from '@/display';
 import {
+  aspectRatioFit,
   CommandPlugin,
   generateParser,
+  getConfig,
   NarratActionContext,
   NarratPlugin,
-} from '@/plugins';
+} from 'narrat';
 
 declare global {
   interface Window {

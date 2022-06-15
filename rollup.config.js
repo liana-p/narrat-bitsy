@@ -2,7 +2,6 @@
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
-import vuePlugin from 'rollup-plugin-vue';
 import typescript from 'rollup-plugin-typescript2';
 import postcss from 'rollup-plugin-postcss';
 import paths from 'rollup-plugin-paths';
@@ -32,7 +31,6 @@ export default {
       extensions: ['.ts', '.js', '.vue', '.css'],
     }),
     typescript(),
-    vuePlugin(),
     postcss(),
     versionInjector(),
     peerDepsExternal(),
