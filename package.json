@@ -1,6 +1,6 @@
 {
   "name": "@narrat/bitsy-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Narrat plugin to interface with a bitsy game",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
