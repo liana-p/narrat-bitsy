@@ -2,6 +2,8 @@
 
 This plugin interfaces the [narrat](https://github.com/liana-pigeot/narrat) game engine with the [bitsy](https://bitsy.org/) game engine
 
+![Narrat bitsy plugin demo video](narrat-bitsy-demo.gif)
+
 ## How it works
 
 The plugin adds the `show_bitsy` and `hide_bitsy` narrat script functions to interface with bitsy.
